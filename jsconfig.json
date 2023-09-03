@@ -1,0 +1,20 @@
+{
+  "include": ["**/*"],
+  "compilerOptions": {
+    /* Base */
+    "noEmit": true,
+    "checkJs": true,
+    "lib": ["ESNext"],
+    "target": "ESNext",
+    "module": "NodeNext",
+    "moduleResolution": "NodeNext",
+
+    /* Type checking */
+    "strict": true,
+    "maxNodeModuleJsDepth": 0,
+    "noUnusedLocals": true,
+    "noImplicitReturns": true,
+    "noUnusedParameters": true,
+    "noFallthroughCasesInSwitch": true
+  }
+}

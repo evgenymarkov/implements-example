@@ -1,0 +1,10 @@
+{
+  "private": true,
+  "type": "module",
+  "devDependencies": {
+    "typescript": "5.2.2"
+  },
+  "scripts": {
+    "check-types": "tsc --project jsconfig.json"
+  }
+}
